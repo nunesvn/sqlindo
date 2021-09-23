@@ -58,7 +58,7 @@ func TestSelect(t *testing.T) {
 	db.User = "postgres"
 	db.Password = ""
 
-	db.Connect()
+	db.Connect(1)
 
 	opa := db.Select("select * from operations")
 	fmt.Println(opa)
