@@ -1,4 +1,4 @@
-module nunes.pl/pkg/sqlindo
+module github.com/nunesvn/sqlindo
 
 go 1.17
 
